@@ -1,0 +1,43 @@
+* {
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background: #b22eff;
+    background: radial-gradient(circle, #b22eff 0%, #4f1256 100%);
+}
+
+#sbtn {
+    padding: 12px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #300B35;
+    border: none;
+}
+
+#sbi {
+    padding: 12px;
+    border-radius: 8px 0px 0px 8px;
+    width: 75%;
+    background-color: #390E3F;
+    border: none;
+}
+
+.logo {
+    margin-top: 160px;
+}
+
+.icon {
+    border-radius: 12px;
+    margin-top: 32px;
+    margin-left: 8px;
+    padding: 12px;
+    background-color: #390D3F;
+}
+
+
+.material-symbols-outlined {
+    color: black;
+}

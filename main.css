@@ -1,0 +1,55 @@
+* {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-image: url(img/wallpaper/1.jpg);
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        margin: 0px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-image: url(img/wallpaper/2.jpg);
+        width: 100vw;
+        height: 98vh;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        margin: 0px;
+    }
+}
+
+.desktop {
+    width: 100%;
+    height: 100%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.app {
+    text-shadow: 1px 1px 4px black;
+    text-align: center;
+}
+
+.footer {
+    font-size: 24px;
+    position: fixed;
+    left: 0; bottom: 0;
+    padding-left: 12px;
+    background: rgb(198,102,254);
+    background: linear-gradient(225deg, #C666FE 0%, #A201FF 80%);
+    color: #fff;
+    width: 100%;
+}
