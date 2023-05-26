@@ -26,8 +26,8 @@
      showgrid="false"
      showguides="false"
      inkscape:zoom="2.5751711"
-     inkscape:cx="-4.6598846"
-     inkscape:cy="33.39584"
+     inkscape:cx="-4.6598845"
+     inkscape:cy="33.395839"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -103,16 +103,13 @@
        d="m 13,44 c 0,0 -6.1073936,4.054204 -9,4 -2.8926064,-0.0542 -4,-2 -4,-2 0,0 2.8064892,-0.02365 5,-2 2.1935108,-1.976351 1,-5 1,-5 z"
        id="path6631"
        sodipodi:nodetypes="czczcc" />
-    <text
-       xml:space="preserve"
-       style="font-size:42.4195px;line-height:1.25;font-family:'Russo One';-inkscape-font-specification:'Russo One';fill:url(#linearGradient12218);fill-opacity:1;stroke-width:1.06049"
-       x="16.018091"
-       y="39.350945"
-       id="text10792"><tspan
-         sodipodi:role="line"
-         id="tspan10790"
-         style="fill:url(#linearGradient12218);fill-opacity:1;stroke-width:1.06049"
-         x="16.018091"
-         y="39.350945">i</tspan></text>
+    <g
+       aria-label="i"
+       id="text10792"
+       style="font-size:42.4195px;line-height:1.25;font-family:'Russo One';-inkscape-font-specification:'Russo One';fill:url(#linearGradient12218);stroke-width:1.06049">
+      <path
+         d="M 27.471356,17.717 V 39.350945 H 20.047944 V 23.443633 H 16.866481 V 17.717 Z M 20.047944,9.2331006 h 7.423412 V 15.17183 h -7.423412 z"
+         id="path933" />
+    </g>
   </g>
 </svg>
