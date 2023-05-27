@@ -54,7 +54,7 @@
     text-align: center;
 }
 
-p {
+p, a {
     margin: 24px;
     text-shadow: 1px 1px 4px black;
 }
