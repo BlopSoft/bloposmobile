@@ -1,4 +1,4 @@
-* {
+﻿* {
     color: white;
     font-family: 'Russo One', sans-serif;
     text-decoration: none;
@@ -45,7 +45,12 @@
     }
 }
 
-.punkt, a {
+.punkt a {
+    margin: 24px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.aaa {
     margin: 24px;
     text-shadow: 1px 1px 4px black;
 }
