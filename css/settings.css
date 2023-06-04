@@ -74,6 +74,10 @@ p {
     margin: 8px;
 }
 
+hr {
+    margin: 8px;
+}
+
 @media (prefers-color-scheme: light) {
     .them {
         border: none;
