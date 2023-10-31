@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 
-body {
+.body {
         background-image: url(img/wallpaper/1.jpg);
         width: 100vw;
         height: 100vh;
