@@ -1,32 +1,48 @@
+var cookieValue = document.cookie.replace(
+  /(?:(?:^|.*;\s*)wall\s*\=\s*([^;]*).*$)|^.*$/,
+  "$1",
+);
+
+document.addEventListener("DOMContentLoaded", function(){
+    document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/" + cookieValue + ".jpg);";
+}); 
+
 function wal1() {
-	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/1.jpg);";
+	document.cookie = "wall=1";
+	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/" + cookieValue + ".jpg);";
 };
 
 function wal2() {
-	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/2.jpg);";
+	document.cookie = "wall=2";
+	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/" + cookieValue + ".jpg);";
 };
 
 function wal3() {
-	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/3.jpg);";
+	document.cookie = "wall=3";
+	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/" + cookieValue + ".jpg);";
 };
 
 function wal4() {
-	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/4.jpg);";
+	document.cookie = "wall=4";
+	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/" + cookieValue + ".jpg);";
 };
 
 function wal5() {
-	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/5.jpg);";
+	document.cookie = "wall=5";
+	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/" + cookieValue + ".jpg);";
 };
 
 function wal6() {
-	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/6.jpg);";
+	document.cookie = "wall=6";
+	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/" + cookieValue + ".jpg);";
 };
 
 function wal7() {
-	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/7.jpg);";
+	document.cookie = "wall=7";
+	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/" + cookieValue + ".jpg);";
 };
 
 function wal8() {
-	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/8.jpg);";
+	document.cookie = "wall=8";
+	document.getElementsByClassName('body')[0].style = "background-image: url(img/wallpaper/" + cookieValue + ".jpg);";
 };
-
