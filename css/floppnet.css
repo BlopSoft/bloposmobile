@@ -4,6 +4,7 @@ body {
 }
 
 #sbtn {
+    display: block;
     padding: 12px;
     border-radius: 0px 8px 8px 0px;
     background-color: #300B35;
@@ -11,6 +12,7 @@ body {
 }
 
 #sbi {
+    display: block;
     padding: 12px;
     border-radius: 8px 0px 0px 8px;
     width: 75%;
@@ -19,10 +21,12 @@ body {
 }
 
 .logo {
+    display: block;
     margin-top: 160px;
 }
 
 .icon {
+    display: block;
     border-radius: 12px;
     margin-top: 32px;
     margin-left: 8px;
