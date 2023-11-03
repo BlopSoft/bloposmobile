@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", function(){
 }); 
 
 function wal(name) {
-	document.cookie = "wall=" + name;
+	document.cookie = "wall=" + name + '; expires=Fri, 31 Dec 9999 23:59:59 GMT';
 };
