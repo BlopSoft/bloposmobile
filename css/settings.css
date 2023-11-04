@@ -12,12 +12,14 @@ p {
 }
 
 .punkt {
-    margin-left: 24px;
     display: flex;
     align-items: center;
+    margin-left: 24px;
+    margin-top: 8px;
 }
 
 
 hr {
     margin: 8px;
+    margin-bottom: 16px;
 }
